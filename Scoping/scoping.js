@@ -1,6 +1,9 @@
 //! Scoping: In JavaScript, objects and functions are also variables. 
 //!Scope determines the accessibility of variables, objects, and functions from different parts of the code.
 
+//! Scope chain: When a variable is used in js then js engine looks for that variable in current scope if it is not found
+//! then it will look into the outer scope and this process continues until the global scope
+
 //Types of Scope in JavaScript
 //! 1 Variable scope 
 //! 2 Block scope
